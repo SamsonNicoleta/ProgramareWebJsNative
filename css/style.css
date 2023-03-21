@@ -1,10 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap'); */
+
 
 :root {
-    --main-color: #ff7200;
-    --black: #05050a;
-    --bg: #000000;
-    --border: .1rem solid rgba(255, 255, 255, .3);
+    --main-color: #d30d0d;
+    --black: #000000;
+    --bg: #ffffff;
+    --border: .1rem solid rgb(0, 0, 0);
 }
 
 * {
@@ -35,7 +35,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background: #fff;
+    background: #000000;
     border-radius: 5rem;
 }
 
@@ -49,7 +49,7 @@ section {
 
 .heading {
     text-align: center;
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     padding-bottom: 3.5rem;
     font-size: 4rem;
@@ -65,8 +65,8 @@ section {
     display: inline-block;
     padding: .9rem 3rem;
     font-size: 1.7rem;
-    color: #fff;
-    background: var(--main-color);
+    color: #ffffff;
+    background:black;
     cursor: pointer;
 }
 
@@ -96,7 +96,7 @@ section {
 .header .navbar a {
     margin: 0 1rem;
     font-size: 1.6rem;
-    color: #fff;
+    color: #000000;
 }
 
 .header .navbar a:hover {
@@ -106,7 +106,7 @@ section {
 }
 
 .header .icons div {
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
@@ -124,7 +124,7 @@ section {
     position: absolute;
     top: 115%;
     right: 7%;
-    background: #fff;
+    background: #000000;
     width: 50rem;
     height: 5rem;
     display: flex;
@@ -163,7 +163,7 @@ section {
     right: -100%;
     height: calc(100vh - 9.5rem);
     width: 35rem;
-    background: #fff;
+    background: #000000;
     padding: 0 1.5rem;
 }
 
@@ -289,7 +289,7 @@ section {
 }
 
 .fa-cart-arrow-down {
-    color: white;
+    color: #000000;
     font-size: 50px;
     cursor: pointer;
     padding-left: 20px;
@@ -374,7 +374,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../img/home-img.jpg) no-repeat;
+    background: url(../images/home-img.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -476,7 +476,7 @@ section {
 .home .content h3 {
     font-size: 6rem;
     text-transform: uppercase;
-    color: #fff;
+    color: #000000;
 }
 
 .home .content p {
@@ -484,7 +484,7 @@ section {
     font-weight: lighter;
     line-height: 1.8;
     padding: 1rem 0;
-    color: #eee;
+    color: #000000;
 }
 
 .about .row {
@@ -509,7 +509,7 @@ section {
 
 .about .row .content h3 {
     font-size: 3rem;
-    color: #fff;
+    color: #000000;
 }
 
 .about .row .content p {
@@ -536,13 +536,13 @@ section {
 }
 
 .menu .box-container .box h3 {
-    color: #fff;
+    color: #000000;
     font-size: 2rem;
     padding: 1rem 0;
 }
 
 .menu .box-container .box .price {
-    color: #fff;
+    color: #000000;
     font-size: 2.5rem;
     padding: .5rem 0;
 }
@@ -554,7 +554,7 @@ section {
 }
 
 .menu .box-container .box:hover {
-    background: #fff;
+    background: #545454;
 }
 
 .menu .box-container .box:hover>* {
@@ -579,7 +579,7 @@ section {
     line-height: 5rem;
     font-size: 2rem;
     border: var(--border);
-    color: #fff;
+    color: #000000;
     margin: .3rem;
 }
 
@@ -635,7 +635,7 @@ section {
 .review .box-container .box p {
     font-size: 1.5rem;
     line-height: 1.8;
-    color: #ccc;
+    color: #000000;
     padding: 2rem 0;
 }
 
@@ -739,7 +739,7 @@ section {
 .blogs .box-container .box .content .title {
     font-size: 2.5rem;
     line-height: 1.5;
-    color: #fff;
+    color: #000000;
 }
 
 .blogs .box-container .box .content .title:hover {
@@ -756,7 +756,7 @@ section {
 .blogs .box-container .box .content p {
     font-size: 1.6rem;
     line-height: 1.8;
-    color: #ccc;
+    color: #000000;
     padding: 1rem 0;
 }
 
@@ -837,7 +837,7 @@ section {
         position: absolute;
         top: 100%;
         right: -100%;
-        background: #fff;
+        background: #ffffff;
         width: 30rem;
         height: calc(100vh - 9.5rem);
     }
@@ -872,4 +872,7 @@ section {
     html {
         font-size: 50%;
     }
+}
+#srt{
+    background: white;
 }
