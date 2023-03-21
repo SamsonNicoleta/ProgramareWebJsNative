@@ -2,7 +2,7 @@
 
 :root {
     --main-color: #d30d0d;
-    --black: #000000;
+    --black: rgba(0, 0, 0, 1);
     --bg: #ffffff;
     --border: .1rem solid rgb(0, 0, 0);
 }
@@ -66,7 +66,7 @@ section {
     padding: .9rem 3rem;
     font-size: 1.7rem;
     color: #ffffff;
-    background:black;
+    background: #be1717;
     cursor: pointer;
 }
 
@@ -163,7 +163,7 @@ section {
     right: -100%;
     height: calc(100vh - 9.5rem);
     width: 35rem;
-    background: #000000;
+    background: #ffffff;
     padding: 0 1.5rem;
 }
 
@@ -355,13 +355,13 @@ section {
     display: flex;
     justify-content: flex-end;
     margin-top: 1.5rem;
-    border-top: 0.4rem solid black;
+    border-top: 0.4rem solid #ffffff;
 }
 
 .header .cart-items-container .total-title {
     font-size: 2rem;
     font-weight: bold;
-    color: #ff7200;
+    color: #ffffff;
 }
 
 .header .cart-items-container .total-price {
@@ -484,7 +484,7 @@ section {
     font-weight: lighter;
     line-height: 1.8;
     padding: 1rem 0;
-    color: #000000;
+    color: rgba(0, 0, 0, 1);
 }
 
 .about .row {
